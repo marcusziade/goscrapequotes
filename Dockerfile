@@ -1,5 +1,5 @@
 # Use the official Go image from the DockerHub
-FROM golang:1.20 as builder
+FROM golang:1.21.0 as builder
 
 # Set the Current Working Directory inside the container
 WORKDIR /app
